@@ -34,8 +34,8 @@ const VideoDetail = () => {
     <>
 
       <div className='min-h-[calc(100vh-85px)]'>
-        <div className="flex flex-col md:flex-row">
-          <div className="w-full md:w-[75%] !sticky top-[85px] h-[calc(100vh-85px)]">
+        <div className="flex flex-col md:flex-row ">
+          <div className="w-full md:w-[75%] !sticky top-[0px] md:top-[85px] h-fit bg-black ">
             <div className=" w-full">
               <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} controls className="react-player" />
               <h1 className='text-white p-1 text-2xl'>{title}</h1>
